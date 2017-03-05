@@ -1,0 +1,8 @@
+<h1>Enter Your Fact!</h1>
+
+<%= simple_form_for @fact do |f| %>
+  <%= f.input :fact %>
+  <%= f.input :source %>
+  <br/>
+  <%= f.submit 'Save', class: 'btn btn-danger' %>
+<% end %>
